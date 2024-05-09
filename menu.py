@@ -168,7 +168,7 @@ while place_order:
                 # their order
                 print("Thank you for your order")
                 # Exit the keep ordering question loop
-            break
+                break
 
                 # Tell the customer to try again
         else: print("Please try again")
@@ -204,4 +204,4 @@ for item in order:
 # 11. Calculate the cost of the order using list comprehension
 # Multiply the price by quantity for each item in the order list, then sum()
 # and print the prices.
-total_cost = sum([item["Price"] * item["Quantity"] for item in order_list])
+total_cost = sum([item["Price"] * item["Quantity"] for item in order])
